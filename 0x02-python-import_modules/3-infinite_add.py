@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-if _name_ == "_main_":
+if __name__ == "__main__":
+    """Print the sum of all arguments."""
     import sys
-
 result = 0
 for i in range(len(sys.argv) - 1):
     result += int(sys.argv[i + 1])
